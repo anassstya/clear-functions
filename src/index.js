@@ -10,5 +10,6 @@ const check =((object) => {
   }
 });
 
+console.log(check({name: 'Mar', health: 10}))
 export default check;
 
