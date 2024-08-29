@@ -1,13 +1,14 @@
 const check =((object) => {
   if(object.health > 50){
-    return 'healthy'
+    return 'healthy';
   }
   else if(object.health >= 15 && object.health <= 50){
-    return 'wounded'
+    return 'wounded';
   }
   else{
-    return 'critical'
+    return 'critical';
   }
 });
+
 export default check;
 
